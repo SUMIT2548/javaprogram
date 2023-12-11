@@ -1,3 +1,5 @@
+// ArithmaticCalculator
+
 package Mypackage;
 import java.util.Scanner;
 public class miniProject2 
@@ -5,8 +7,8 @@ public class miniProject2
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);
-		double num1 , num2 , result ;
-		int option;
+		double num1 , num2 , result ; //declare variable
+		int option; //declare variable
 		
 		while(true)
 		{
