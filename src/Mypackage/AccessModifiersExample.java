@@ -4,7 +4,7 @@ package Mypackage;
 class Bank
 {
 	public String Name;
-	int Age;
+	int Age;             // default 
 	protected String email;
 	private String Password;
 	
@@ -14,12 +14,12 @@ class Bank
 		System.out.println(this.Age);
 		System.out.println(this.email);
 	}
-	
+	 // Method 1 - Getter
 	public String getPassword()
 	{
 		return this.Password;
 	}
-	
+	// Method 2 - Setter
 	public void setPassword(String Pass)
 	{
 		this.Password = Pass;
