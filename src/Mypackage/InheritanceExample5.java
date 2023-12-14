@@ -3,7 +3,7 @@ package Mypackage;
  
 interface Classa
 {
-	void print1();
+	void print();
 }
 interface Classb
 {
@@ -12,10 +12,6 @@ interface Classb
 
 class C1 implements Classa, Classb
 {
-	public void print1()
-	{
-		System.out.println("Haii.. I am from classa");
-	}
 	public void print()
 	{
 		System.out.println("Haii.. I am from classa");
@@ -28,7 +24,6 @@ public class InheritanceExample5 {
 	{
 		C1 opt = new C1();
 		opt.print();
-        opt.print1();
 	}
 
 }

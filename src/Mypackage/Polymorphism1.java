@@ -6,10 +6,6 @@
 package Mypackage;
  class Student3
 {
-	String Name;
-	int Roll;
-	long age;
-	
 	public void profileinfo(String Name)
 	{
 		System.out.println(Name);
@@ -32,12 +28,9 @@ public class Polymorphism1 {
 	public static void main(String[] args)
 	{
       Student3 a1 = new Student3();
-      a1.Name = "Sumit";
-      a1.Roll = 25;
-      a1.age = 20;
       
-      a1.profileinfo(a1.Name);                  // type1 for o/p
-      a1.profileinfo("Susmita", 10, 20);        // type2 for o/p
+      a1.profileinfo("Sumit");                 
+      a1.profileinfo("Susmita", 10, 20);        
 	}
 
 }

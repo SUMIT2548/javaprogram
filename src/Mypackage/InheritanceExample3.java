@@ -15,7 +15,7 @@ class triangle2 extends  Shape2
 		System.out.println(a);
 	}
 }
-class circle extends Shape2
+class circle2 extends Shape2
 {
 	public void area(int i)
 	{
@@ -30,7 +30,7 @@ public class InheritanceExample3
 		triangle2 t1 = new triangle2();
 		t1.area(10, 4);
 		
-		circle c1 = new circle();
+		circle2 c1 = new circle2();
 		c1.area(4);
 	}
 

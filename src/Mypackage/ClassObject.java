@@ -34,14 +34,14 @@ public class ClassObject
 	     s1.math = 96;
 	    
 	     s1.info();
-	     
+	     s1.marks();
 	    Student s2 = new Student(); // object
 	   
 	     s2.name= "Ankita";
 	     s2.eng = 89;
 	     s2.math = 90;
 	    
-	     s1.marks();
+	    
 	     s2.marks();
 	}   
 }

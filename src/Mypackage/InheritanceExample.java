@@ -1,4 +1,3 @@
-
 // Single inheritance
 
 package Mypackage;
