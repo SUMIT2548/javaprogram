@@ -9,15 +9,15 @@ public class UserInput {
 		// How to Take user Input?
 	Scanner sc = new Scanner(System.in);	
 	
-	System.out.println("Your name - ");
 	System.out.println("Your age - ");
 	System.out.println("Your Salary - ");
-	
-    String name = sc.nextLine();    // sc.nect print full line ex- i/p- sumit kumar saha, o/p- sumit kumar saha
-  //String name = sc.next();      // sc.next only print first word. ex - i/p- sumit kumar saha, o/p - sumit
+	System.out.println("Your name - ");
 	
     int age = sc.nextInt();
 	float salary = sc.nextFloat();
+	sc.nextLine();
+	String name = sc.nextLine(); // sc.nect print full line ex- i/p- sumit kumar saha, o/p- sumit kumar saha
+	//String name = sc.next();      // sc.next only print first word. ex - i/p- sumit kumar saha, o/p - sumit
 	
 	System.out.println(name);
 	System.out.println(age);
