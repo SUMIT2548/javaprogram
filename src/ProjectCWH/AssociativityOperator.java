@@ -30,8 +30,8 @@ public class AssociativityOperator {
 		System.out.println(z);
 		
 		
-		int d = 4,e = 5,c = 6;
-		int A = e*e -( 4*d*c) /( 2*d);    // 5*5-(4*4*6)/(2*4) -> 25-96/8 -> 25-12 ->13
+		float d = 4,e = 5,c = 6;
+		float A = (e*e - 4*d*c) /( 2*d);    // (5*5-4*4*6)/(2*4) -> 25-96/8 ->-71/8 ->8.875
 		System.out.println(A);
 
 	}
