@@ -36,7 +36,7 @@ public class StringExample {
 		System.out.println(Name2.endsWith("ry"));
 		
 		
-	/*	String a = "MphasisLtdLtd";
+		String a = "MphasisLtdLtd";
 		
 		// charAt(2)	Returns the character at a given index position
 		System.out.println(a.charAt(4));
@@ -51,7 +51,7 @@ public class StringExample {
 		System.out.println(a.equals("MphasisLtdLtd"));
 		//equalsIgnoreCase   not case sensitive
 		System.out.println(a.equalsIgnoreCase("mphasisltdltd"));   
-	*/
+	
 	}
 
 }
