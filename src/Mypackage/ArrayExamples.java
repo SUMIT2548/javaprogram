@@ -22,15 +22,27 @@ public class ArrayExamples {
 	 //  System.out.println(results[2]);
 		
 		//length
-	 //   System.out.println(results.length);
+	    System.out.println(results.length);
 	    
 	  //before sort 
 	    System.out.println(results[0]);
 
 	    // after sort 
 	    Arrays.sort(results);
-        System.out.println(results[0]);
-       
+       System.out.println(results[0]);
+        
+        //For-each loop
+        System.out.print("Printing The Array Program For-each \n ");
+        for (int element:results)
+        {
+        	System.out.println(element);
+        } 
+        
+       //for loop 
+        for(int i=0;i<results.length;i++)
+        {
+        	System.out.println(results[i]);
+        }
 		
 		
 		//2D Array 
@@ -38,7 +50,7 @@ public class ArrayExamples {
 		int[][] Marks = {{90,58,60,85},{85,75,89,95}};	
         System.out.println(Marks[0][0]);
         System.out.println(Marks[1][0]);
-	
+    	
 	}
 
 }

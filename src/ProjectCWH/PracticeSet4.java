@@ -63,6 +63,7 @@ public class PracticeSet4 {
             */
 		
     //Question 6: Repeat problem 5 using a while loop.
+		
             /*      int a = 5; // factorial of 5!
                   int i =1 ,fact =1 ;
                   while(i<=a)
@@ -79,8 +80,32 @@ public class PracticeSet4 {
 		          ***
 		          **
 		          *
-		    */
-		
+		    */   // for loop 
+		      /*    int a =5;
+		          for(int i=a;i>0;i--)
+		          {
+		        	  for(int j=0;j<i;j++ )
+		        	  {
+		        		  System.out.print("*");
+		        	  }
+		        	  System.out.println( "\n" );
+		          }
+		       */
+		          //while loop
+		          
+		          int i = 5;
+		          while(i>0)
+		          {
+		        	   int j =0;
+		        	     while(j<i)
+		        	     {
+		        		   j++;
+		        		   System.out.print("*");
+		        	     }
+		        	   i--;
+		               System.out.println();
+		          }
+		         
 		
 		
 		
@@ -108,7 +133,7 @@ public class PracticeSet4 {
 		
     //Question 11: Write a program to sum first n even numbers using a for loop.
 		      
-		         int n = 5 ; // first 5 even number - 2,4,6,8,10 
+		   /*      int n = 5 ; // first 5 even number - 2,4,6,8,10 
 		         int sum = 0; 
 	             for(int i=0;i<=n;i++)
 	             {
@@ -116,5 +141,6 @@ public class PracticeSet4 {
 	            	 sum = sum + evennumber; // 2+4+6+8+10 = 30
 	             }
 	            System.out.println(sum);
-	} 
+	            */
+	}  
 }
