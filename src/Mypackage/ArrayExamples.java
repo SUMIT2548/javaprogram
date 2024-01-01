@@ -47,9 +47,20 @@ public class ArrayExamples {
 		
 		//2D Array 
 		
-		int[][] Marks = {{90,58,60,85},{85,75,89,95}};	
-        System.out.println(Marks[0][0]);
-        System.out.println(Marks[1][0]);
+		int[][] Marks = {{90,58,60,85},{85,75,89,95}};	// int[2][4] means [0 0,0 1,0 2,0 3][1 0,1 1,1 2,1 3]
+    //    System.out.println(Marks[0][0]);
+    //   System.out.println(Marks[1][0]);
+		
+		// for loop with 2d array
+		for( int i = 0; i <Marks.length; i++)  // int[i][j] = int[2][4]
+		{
+			for(int j = 0; j< Marks[i].length; j++)
+			{
+				System.out.print(Marks[i][j]);
+				System.out.print(" ");
+			}
+			System.out.println("");
+		}
     	
 	}
 

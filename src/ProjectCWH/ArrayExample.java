@@ -11,6 +11,7 @@ public class ArrayExample {
 		System.out.println(Marks[2]);
 		System.out.println(Marks[3]);
 		System.out.println(Marks[4]);
+		//length
 		System.out.println("Length-" +Marks.length);
 		
 		// another Way - for loop
