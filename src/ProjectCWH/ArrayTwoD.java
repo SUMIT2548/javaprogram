@@ -18,9 +18,9 @@ public class ArrayTwoD {
 		
 		// 2D array with for loop 
 		
-				for(int i=0;i<Marks.length;i++)  
+				for(int i=0;i<Marks.length;i++)  // row number of times
 				{
-					for(int j=0;j<Marks[i].length;j++)
+					for(int j=0;j<Marks[i].length;j++)  // column number of time
 					{
 						System.out.print(Marks[i][j]);
 						System.out.print(" ");
